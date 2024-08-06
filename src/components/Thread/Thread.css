@@ -1,0 +1,124 @@
+/* EmailThread.css */
+
+.thread{
+    background-color: #1e1e2e;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .sender-info h2 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .sender-info p {
+    margin: 0;
+    color: #888;
+  }
+  
+  .status-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .status-button,
+  .move-button {
+    background-color: #303044;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .status-button:hover,
+  .move-button:hover {
+    background-color: #444456;
+  }
+  
+  .email-content {
+    background-color: #2e2e3e;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .email-date span {
+    background-color: #444456;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .email-message {
+    margin-top: 20px;
+  }
+  
+  .email-meta {
+    text-align: right;
+    color: #888;
+  }
+  
+  .email-body h3 {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .email-body p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .view-replies-button {
+    background-color: #444456;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .view-replies-button:hover {
+    background-color: #555566;
+  }
+  
+  .email-replies {
+    background-color: #2e2e3e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .email-reply {
+    padding: 10px;
+    border-bottom: 1px solid #444456;
+  }
+  
+  .email-reply:last-child {
+    border-bottom: none;
+  }
+  
+  .reply-button {
+    background-color: #444456;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .reply-button:hover {
+    background-color: #555566;
+  }
+  

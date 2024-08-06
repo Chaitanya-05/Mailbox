@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.login-box{
+    width: 460px;
+    color: white;
+    border: 1px solid #343A40;
+    padding: 24px 40px 40px 40px;
+    border-radius: 17px;
+    display: flex;
+    background-color: #111214;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 24px;
+}
+
+.login-box-google {
+    display: flex;
+    gap: 8px;
+    padding: 6px;
+    box-sizing: border-box;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #707172;
+}
+.login-box-google > img{
+    height: 32px;
+    
+
+}
+.login-box-button{
+    margin-top: 24px;
+    width: 195px;
+    height: 48px;
+    display: flex;border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(70,95,219);
+background: linear-gradient(90deg, rgba(70,95,219,1) 2%, rgba(5,36,190,1) 98%);
+}
+
+
+
+
+
+
+.login-box-foot{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+
+}

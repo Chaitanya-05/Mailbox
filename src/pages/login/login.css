@@ -1,0 +1,33 @@
+.login-cont{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-nav{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid grey;
+
+}
+.login-nav > img{
+    
+    width: 200px;
+}
+.login-foot{
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 1px solid grey;
+
+    color: rgb(214, 214, 214);
+}
