@@ -1,18 +1,23 @@
 /* EmailThread.css */
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 .thread{
-    background-color: #1e1e2e;
+    background-color: #000000;
     color: white;
-    padding: 20px;
-    border-radius: 8px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
     font-family: Arial, sans-serif;
+    overflow-y: scroll;
   }
   
-  .email-header {
+  .thread-header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    border-bottom: 1px solid grey;
+    padding: 20px;
   }
   
   .sender-info h2 {
@@ -46,8 +51,9 @@
   }
   
   .email-content {
-    background-color: #2e2e3e;
+    background-color: rgb(20, 21, 23);
     padding: 20px;
+    border: 1px solid #343a40;
     border-radius: 8px;
   }
   
@@ -56,16 +62,19 @@
     padding: 5px 10px;
     border-radius: 4px;
     font-size: 14px;
-  }
-  
-  .email-message {
-    margin-top: 20px;
-  }
-  
+  } 
+
   .email-meta {
-    text-align: right;
+    display: flex;
+    justify-content: space-between;
     color: #888;
   }
+  .email-meta > h3{
+    color: white;
+    margin-bottom: 10px;
+  }
+
+
   
   .email-body h3 {
     margin: 0;
@@ -120,5 +129,42 @@
   
   .reply-button:hover {
     background-color: #555566;
+  }
+  
+
+
+
+
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin: 12px 0px;
+    
+
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #171819;
+  }
+  
+  .center-content {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 5px 18px; /* Adjust padding as needed */
+    background-color: #171819; /* Same as the parent background to blend in */
+    color: #fff;
+    z-index: 1;
+    
+  }
+  
+  .center-content .icon {
+    margin-right: 5px; /* Adjust spacing as needed */
   }
   

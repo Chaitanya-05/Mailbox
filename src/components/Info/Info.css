@@ -2,41 +2,53 @@
 .info{
     color: white;
     font-family: Arial, sans-serif;
+    border-left: 1px solid #343a40;
+    padding: 10px;
   }
   
   .lead-details,
   .activities {
-    background-color: #1e1e2e;
-    padding: 20px;
+    
+
     margin-bottom: 20px;
     border-radius: 8px;
   }
   
+  .detail-value{
+    font-weight: 300;
+    color: #b9b9b9;
+  }
   .section-title {
-    background-color: #303044;
+    background-color: #23272c;
     padding: 10px;
     border-radius: 8px;
     font-size: 18px;
     margin-bottom: 20px;
+    font-weight: 500;
   }
   
   .details .detail-item {
     display: flex;
     justify-content: space-between;
-    padding: 5px 0;
+    padding: 18px 0;
+  }
+  .details{
+    padding: 0px 20px;
   }
   
   .detail-label {
-    font-weight: bold;
+    font-weight: 300;
   }
   
   .campaign-details {
-    padding: 10px 0;
+    padding: 10px 15px;
   }
   
   .campaign-header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    
     margin-bottom: 20px;
   }
   
